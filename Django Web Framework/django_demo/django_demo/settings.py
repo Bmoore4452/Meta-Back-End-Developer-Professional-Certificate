@@ -58,7 +58,9 @@ ROOT_URLCONF = "django_demo.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [
+            "/Users/brianmoore/Documents/Meta-Back-End-Developer-Professional-Certificate/Django Web Framework/django_demo/templates"
+        ],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
